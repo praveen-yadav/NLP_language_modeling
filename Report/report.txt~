@@ -2,7 +2,7 @@ a. bigram is better than tri and others
 First I created unigram,bigram to hexgram both dictionary and list.
 Then to check for any given word , probablity that it is sentence ending token as follows - count(word prev sequence+</s>)/count(word prev sequence)
 c. For plotting rank vs frequency graph
-	I am generating a .csv file and I am uploading it online to create graph there then downloading png image.So It only takes top 40 n-grams only for each n. Rank wont be > 40 in generated graph.
+	I am generating a .csv file and I am uploading it online to create graph there then downloading png image.
 d. Sentence generation - 
 	It asks for n then randomly selects n words in n-gram list whose start word is <s> then by taking n-1 words from previous generate nth word randomly. Random means n-grams which occurs more are more likely to come in outcome sentence
 
